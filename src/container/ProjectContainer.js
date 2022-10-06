@@ -18,13 +18,10 @@ const ProjectContainer = ( ) => {
 
     }, [])
 
-
-
-    
     return (
         <>
-            <p> Hello from container</p>
-            <MovieQuote />
+            <h1> Guess the TV show from the quote</h1>
+            <MovieQuote movieQuote={movieQuote}/>
         </>
     )
 }
